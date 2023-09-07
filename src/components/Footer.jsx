@@ -7,6 +7,8 @@ import { AppContext } from '@edx/frontend-platform/react';
 
 import messages from './Footer.messages';
 import LanguageSelector from './LanguageSelector';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 ensureConfig([
   'LMS_BASE_URL',

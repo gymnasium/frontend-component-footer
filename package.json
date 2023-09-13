@@ -1,5 +1,5 @@
 {
-  "name": "@edx/frontend-component-footer",
+  "name": "community-theme-footer",
   "version": "1.0.0-community-theme.palm",
   "description": "Footer component for use when building Open edX frontend applications",
   "main": "dist/index.js",

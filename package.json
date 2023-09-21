@@ -1,7 +1,7 @@
 {
-  "name": "community-theme-footer",
-  "version": "1.0.0-community-theme.palm",
-  "description": "Footer component for use when building Open edX frontend applications",
+  "name": "@edx/frontend-component-footer",
+  "version": "1.0.0-gym.palm",
+  "description": "Gymnasium-specific footer component for Open edX frontend applications",
   "main": "dist/index.js",
   "publishConfig": {
     "access": "public"

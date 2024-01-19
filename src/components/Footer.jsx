@@ -8,6 +8,9 @@ import { AppContext } from '@edx/frontend-platform/react';
 import messages from './Footer.messages';
 import LanguageSelector from './LanguageSelector';
 
+import GymSettings from '../data/settings';
+const settings = await GymSettings();
+
 ensureConfig([
   'LMS_BASE_URL',
   'LOGO_TRADEMARK_URL',
@@ -46,9 +49,9 @@ class SiteFooter extends React.Component {
     return (
       <footer
         role="contentinfo"
-        className="footer d-flex border-top py-3 px-4"
+        className="site-footer gym-footer"
       >
-        <div className="container-fluid d-flex">
+        <div className="container">
           <a
             className="d-block"
             href={config.LMS_BASE_URL}
